@@ -29,14 +29,14 @@
 </template>
 
 <script>
-import {
-    Button
-} from 'vant';
+// import {
+//     Button
+// } from 'vant';
 
 export default {
     name: 'Button',
     components: {
-        [Button.name]: Button
+        // [Button.name]: Button
     }
 }
 </script>

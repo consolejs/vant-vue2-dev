@@ -5,17 +5,20 @@
     <HelloWorld msg="Welcome to Your Vue.js App" />
      -->
     <Button />
+    <Cell />
 </div>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import Button from "./vants/button.vue";
+import Button from "./vants/Button.vue";
+import Cell from "./vants/Cell.vue";
 export default {
     name: 'App',
     components: {
         // HelloWorld,
-        Button
+        Button,
+        Cell
     }
 }
 </script>
