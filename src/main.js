@@ -5,13 +5,12 @@ import VueRouter from 'vue-router'
 import { Button } from 'vant';
 
         
-const Foo = { template: '<div>foo1111</div>' }
-const Bar = { template: '<div>bar2222</div>' }
+const Foo = { template: ' <transition name="slide-fade"><div>foo1111</div></transition>' }
+const Bar = { template: ' <transition name="fade"><div>bar2222</div></transition>' }
 
         
 const UserProfile = { template: '<div>User Profile</div>' }
 const UserPosts = { template: '<div>User Posts</div>' }
-
 
 
 
