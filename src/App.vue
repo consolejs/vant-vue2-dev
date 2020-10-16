@@ -56,7 +56,6 @@ export default {
 
 .square {
     margin: 20px;
-    height: 60px;
     line-height: 60px;
     border: 1px solid green;
 }
